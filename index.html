@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometric Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trigonometric Calculator</h1>
+        <label for="angle">Angle (Degrees):</label>
+        <input type="number" id="angle" step="0.01">
+        <label for="radians">Radians:</label>
+        <input type="number" id="radians" step="0.01">
+        <label for="trig-function">Trigonometric Function:</label>
+        <select id="trig-function">
+            <option value="sin">sin</option>
+            <option value="cos">cos</option>
+            <option value="tan">tan</option>
+        </select>
+        <label for="trig-value">Trigonometric Value:</label>
+        <input type="number" id="trig-value" step="0.01">
+        <button id="calculate">Calculate</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
